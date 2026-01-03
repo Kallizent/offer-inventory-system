@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hosting – Dokumen Penawaran</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script>
+    tailwind.config = { 
+      theme: { 
+        extend: { 
+          colors: { 
+            primary: '#1e40af',
+            secondary: '#0f172a',
+            success: '#10b981'
+          } 
+        } 
+      } 
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-white text-secondary">
+
+  <!-- Navbar -->
+  <nav class="border-b border-gray-200">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-lg font-bold">Dokumen Penawaran</div>
+      <div class="flex space-x-6 text-sm">
+        <a href="index.html" class="text-gray-600 hover:text-primary">Beranda</a>
+        <a href="packages.html" class="text-gray-600 hover:text-primary">Paket</a>
+        <a href="features.html" class="text-gray-600 hover:text-primary">Fitur</a>
+        <a href="hosting.html" class="font-medium text-primary border-b-2 border-primary">Hosting</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-16">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h1 class="text-3xl font-bold mb-8 text-center">Opsi Hosting & Maintenance</h1>
+
+      <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 class="text-xl font-bold mb-4 text-primary">Paket Hosting Lengkap (Opsional)</h2>
+        
+        <div class="mb-5">
+          <h3 class="font-semibold mb-2">Spesifikasi Server:</h3>
+          <ul class="bg-white p-4 rounded-lg border space-y-2">
+            <li class="flex justify-between">
+              <span class="text-gray-700">Storage (SSD)</span>
+              <span class="font-medium">60 GB</span>
+            </li>
+            <li class="flex justify-between">
+              <span class="text-gray-700">CPU</span>
+              <span class="font-medium">4 Core</span>
+            </li>
+            <li class="flex justify-between">
+              <span class="text-gray-700">RAM</span>
+              <span class="font-medium">5 GB</span>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <i class="fas fa-check text-success mt-1 mr-2"></i>
+            <span><strong>Domain .com atau .co.id GRATIS** untuk 1 tahun pertama</strong></span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check text-success mt-1 mr-2"></i>
+            <span>Hosting premium (SSD, SSL, cPanel) — <strong>Rp 3.000.000/tahun</strong></span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check text-success mt-1 mr-2"></i>
+            <span>Maintenance bulanan: update keamanan, backup, monitoring — <strong>Rp 300.000/bulan</strong></span>
+          </li>
+        </ul>
+        <p class="mt-4 text-sm text-gray-600">*Anda bebas menggunakan hosting sendiri — tidak wajib pakai layanan ini.</p>
+      </div>
+
+      <div class="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+        <h3 class="font-bold mb-3">Mengapa Pertimbangkan Paket Ini?</h3>
+        <ul class="list-disc pl-5 text-gray-700 space-y-1">
+          <li>Tidak perlu pusing urus teknis server</li>
+          <li>Backup harian otomatis</li>
+          <li>Update keamanan rutin</li>
+          <li>Respons cepat jika ada gangguan</li>
+          <li>Spesifikasi cukup untuk 500–1000 transaksi/hari</li>
+        </ul>
+      </div>
+
+      <div class="text-center">
+        <a href="https://wa.me/6281229967300?text=Saya%20tertarik%20dengan%20paket%20hosting%20(Rp%203jt/tahun)." 
+           target="_blank"
+           class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
+          <i class="fab fa-whatsapp mr-2"></i> Tanyakan Detail atau Pesan Sekarang
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-gray-200 py-8 text-center text-gray-600 text-sm">
+    <div class="container mx-auto px-4">
+      © 2026 Dokumen Penawaran Sistem Stok
+    </div>
+  </footer>
+
+</body>
+</html>

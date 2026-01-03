@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitur – Penawaran Sistem Stok</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { primary: '#1e40af', dark: '#0f172a' } } } }
+  </script>
+</head>
+<body class="font-sans bg-white text-dark">
+
+  <!-- Navbar -->
+  <nav class="border-b border-gray-200">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-lg font-bold">Dokumen Penawaran</div>
+      <div class="flex space-x-6 text-sm">
+        <a href="index.html" class="text-gray-600 hover:text-primary">Beranda</a>
+        <a href="packages.html" class="text-gray-600 hover:text-primary">Paket</a>
+        <a href="features.html" class="font-medium text-primary border-b-2 border-primary">Fitur</a>
+        <a href="hosting.html" class="text-gray-600 hover:text-primary">Hosting</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h1 class="text-3xl font-bold mb-10 text-center">Fitur Utama Sistem</h1>
+
+      <!-- Fitur 1 -->
+      <div class="mb-10">
+        <div class="flex items-start mb-4">
+          <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+            <i class="fas fa-database text-primary"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-bold mb-2">Master Data & Transaksi</h2>
+            <p>Input barang, supplier, kategori. Catat barang masuk (dari supplier) dan keluar (penjualan/internal) secara real-time.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fitur 2 -->
+      <div class="mb-10">
+        <div class="flex items-start mb-4">
+          <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+            <i class="fas fa-chart-line text-green-700"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-bold mb-2">Laporan Instan</h2>
+            <p>Stok saat ini, mutasi harian, rekap periode, laporan keuntungan — semua dalam 1 klik. Ekspor ke Excel/PDF.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fitur 3 -->
+      <div class="mb-10">
+        <div class="flex items-start mb-4">
+          <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+            <i class="fas fa-bell text-amber-700"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-bold mb-2">Notifikasi Cerdas</h2>
+            <p>Peringatan otomatis saat stok rendah atau barang hampir kadaluarsa — cegah kerugian sebelum terjadi.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fitur 4 -->
+      <div class="mb-10">
+        <div class="flex items-start mb-4">
+          <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+            <i class="fas fa-lock text-purple-700"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-bold mb-2">Aman & Terkendali</h2>
+            <p>Multi-user (opsional), audit log, backup data, dan source code 100% milik Anda — tanpa ketergantungan vendor.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="https://wa.me/6281234567890?text=Ingin%20tahu%20lebih%20lanjut%20tentang%20fitur%20sistem." 
+           target="_blank"
+           class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg">
+          <i class="fab fa-whatsapp mr-2"></i> Diskusikan Kebutuhan Anda
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-gray-200 py-8 text-center text-gray-600 text-sm">
+    <div class="container mx-auto px-4">
+      © 2026 Dokumen Penawaran Sistem Stok
+    </div>
+  </footer>
+
+</body>
+</html>
